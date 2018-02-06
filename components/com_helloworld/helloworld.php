@@ -6,4 +6,9 @@
  * Time: 1:40 PM
  */
 
-echo "hello world from the front end";
+defined('_JEXEC') or die();
+
+$controller = \Joomla\CMS\MVC\Controller\BaseController::getInstance('Helloworld');
+$input = \Joomla\CMS\Factory::getApplication()->input->get('task');
+$controller->execute($input);
+$controller->redirect();
