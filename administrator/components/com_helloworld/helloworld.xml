@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.8" method="upgrade">
+    <name>com_helloworld</name>
+    <version>0.0.1</version>
+    <description>Description of the hello world component</description>
+    <files folder="site">
+        <filename>helloworld.php</filename>
+        <filename>index.php</filename>
+    </files>
+    <administration>
+        <menu link='index.php?option=com_helloworld'>Hello World!</menu>
+        <files folder="admin">
+            <filename>helloworld.xml</filename>
+            <filename>helloworld.php</filename>
+        </files>
+    </administration>
+</extension>
