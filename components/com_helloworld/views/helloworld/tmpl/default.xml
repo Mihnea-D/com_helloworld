@@ -5,4 +5,23 @@
             COM_HELLOWORLD_HELLOWORLD_VIEW_DEFAULT_DESC
         </message>
     </layout>
+
+    <fields name="request">
+        <fieldset name="request"
+                  addfieldpath="/administrator/components/com_helloworld/models/fields"> <!-- Cap 6 -->
+            <!-- type = "list"  Cap 1-5-->
+            <field
+                    name="id"
+                    type="helloworld"
+                    label="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_LABEL"
+                    description="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_DESC"
+                    default="1">
+                <!-- Cap 1-5
+                <option>Select a message</option>
+                <option value="1">Hello World!</option>
+                <option value="2">Good bye World!</option>
+                -->
+            </field>
+        </fieldset>
+    </fields>
 </metadata>

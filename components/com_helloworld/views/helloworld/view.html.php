@@ -15,6 +15,7 @@ class HelloworldViewHelloworld extends \Joomla\CMS\MVC\View\HtmlView
         //$this->msg = 'Hello World from the view';
 
         $this->msg = $this->get('Msg');
+        //var_dump($this->getModel());
 
         if (count($errors = $this->get('Errors')))
         {
