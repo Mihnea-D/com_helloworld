@@ -13,9 +13,20 @@ class HelloworldModelHelloworld extends \Joomla\CMS\MVC\Model\BaseDatabaseModel
 
     public function getMsg()
     {
+        $app = \Joomla\CMS\Factory::getApplication();
+        $id = $app->input->get('id', 1, 'INT');
+
         if(!isset($this->message))
         {
-            $this->message = "Hello World set from the model";
+            switch($id)
+            {
+                case 2: $this->message = "Good bye world based on the menu variable";
+                        break;
+                case 1:
+                default: $this->message = "Hello World based on the menu variable";
+                        break;
+            }
+
         }
 
         return $this->message;

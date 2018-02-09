@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19161c52-97cf-4bfd-b5ee-6c75906609fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" afterPath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" afterPath="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view.html.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -46,18 +47,28 @@
       <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helloworld.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_content/views/article/tmpl/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="59" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helloworld.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -109,9 +120,9 @@
         <option value="$PROJECT_DIR$/components/com_helloworld/controller.php" />
         <option value="$PROJECT_DIR$/components/com_helloworld/helloworld.php" />
         <option value="$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" />
         <option value="$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml" />
         <option value="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" />
-        <option value="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" />
       </list>
     </option>
   </component>
@@ -168,6 +179,36 @@
               <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
               <item name="testpdo" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpdo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpdo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpdo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpdo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tmpl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="testpdo" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +279,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5537000" />
+    <option name="totallyTimeSpent" value="6594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
@@ -618,30 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_content/views/article/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="47" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/helloworld.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -650,10 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -662,6 +679,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_content/views/article/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="59" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
           <folding />
         </state>
       </provider>
