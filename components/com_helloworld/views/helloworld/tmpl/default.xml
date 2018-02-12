@@ -7,17 +7,16 @@
     </layout>
     <fields name="request">
         <fieldset name="request"
-                  addfieldpath="/administrator/components/com_content/models/fields">
+                  addfieldpath="/administrator/components/com_helloworld/models/fields">
 
             <field
                     name="id"
-                    type="list"
+                    type="helloworld"
                     label="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_LABEL"
                     description="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_DESC"
                     default="1"
             >
-                <option value="1">Hello world variable</option>
-                <option value="2">Good bye world variable</option>
+
             </field>
         </fieldset>
     </fields>
