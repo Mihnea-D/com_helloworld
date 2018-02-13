@@ -10,6 +10,7 @@ defined('_JEXEC') or die();
 
 $message = $this->get('msg');
 
+//var_dump($this->_models['helloworld']);
 
 ?>
 
