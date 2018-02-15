@@ -42,7 +42,7 @@ class JConfig {
 	public $smtpport = '25';
 	public $caching = '0';
 	public $cache_handler = 'file';
-	public $cachetime = '15';
+	public $cachetime = '360';
 	public $cache_platformprefix = '0';
 	public $MetaDesc = '';
 	public $MetaKeys = '';
@@ -58,7 +58,7 @@ class JConfig {
 	public $feed_email = 'none';
 	public $log_path = 'C:\\xampp\\htdocs\\testpdo\\administrator/logs';
 	public $tmp_path = 'C:\\xampp\\htdocs\\testpdo/tmp';
-	public $lifetime = '15';
+	public $lifetime = '360';
 	public $session_handler = 'database';
 	public $shared_session = '0';
 	public $memcache_persist = '1';
